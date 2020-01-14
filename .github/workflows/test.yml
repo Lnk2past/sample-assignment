@@ -8,8 +8,8 @@ jobs:
     - uses: Lnk2past/auto-grader-action@master
       id: grade
     - name: Get the build output
-      run: echo "Build: ${{ steps.grade.outputs.build_output }}"
+      run: echo "Build - ${{ steps.grade.outputs.build_output }}"
     - name: Get the test output
-      run: echo "Test: ${{ steps.grade.outputs.test_output }}"
+      run: echo "Test - ${{ steps.grade.outputs.test_output }}"
     - name: Get the score
-      run: echo "Score: ${{ steps.grade.outputs.score }}"
+      run: echo "Score - ${{ steps.grade.outputs.score }}"
