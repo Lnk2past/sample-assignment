@@ -6,10 +6,10 @@ DEBUG_FLAGS:=-g
 SRC:=$(wildcard *.cpp)
 TRGT:=main.exe
 
-$(TRGT): $(OBJ)
-	$(CXX) $(OBJ) -o $@
+$(TRGT): main.o
+	$(CXX) $< -o $@
 
-%.o: %.cpp
+main.o: main.cpp
 	$(CXX) $(STD) $(DEBUG_FLAGS) $(CFLAGS) -c $< -o $@
 
 clean:
