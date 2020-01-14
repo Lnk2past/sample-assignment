@@ -1,4 +1,4 @@
-// simple input/output
+// simple input/output...
 #include <iostream>
 #include <string>
 int main()
