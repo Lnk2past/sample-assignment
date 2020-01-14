@@ -1,4 +1,4 @@
-executable: hello_world.exe
+executable: main.exe
 test-cases:
     standard:
         stdin: |
