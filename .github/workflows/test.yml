@@ -10,3 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: Lnk2past/auto-grader-action@master
+      id: grade
+    - name: Get the output
+      run: echo "The message is ${{ steps.grade.outputs.msg }}"
