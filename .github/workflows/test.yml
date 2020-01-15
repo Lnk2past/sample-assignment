@@ -6,7 +6,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: Lnk2past/auto-grader-action@master
-      id: grade
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        repo-name: $GITHUB_REPOSITORY
