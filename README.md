@@ -1,5 +1,7 @@
 # sample-assignment
 
+![CI](https://github.com/Lnk2past/sample-assignment/workflows/CI/badge.svg)
+
 Sample assignment that is auto-graded. Grading includes build output, test output, and a score.
 
 ## Uses
