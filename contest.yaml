@@ -1,6 +1,6 @@
 executable: main.exe
 test-cases:
-    - name: standard:
+    - name: standard
       stdin: |
           Lnk2past
       stdout: |
